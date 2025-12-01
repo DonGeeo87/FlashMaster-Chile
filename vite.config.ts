@@ -10,6 +10,14 @@ export default defineConfig(({ mode }) => {
     // Para desarrollo local, usar '/' funciona bien
     const base = env.VITE_BASE_PATH || (process.env.NODE_ENV === 'production' ? '/FlashMaster-Chile/' : '/');
     
+    // Log para debugging en CI
+    if (process.env.CI) {
+      console.log('🔍 Vite Config Debug:');
+      console.log('  - NODE_ENV:', process.env.NODE_ENV);
+      console.log('  - VITE_BASE_PATH:', env.VITE_BASE_PATH);
+      console.log('  - Base path configurado:', base);
+    }
+    
     return {
       base,
       server: {

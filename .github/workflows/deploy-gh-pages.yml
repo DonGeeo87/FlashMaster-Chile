@@ -35,9 +35,25 @@ jobs:
       - name: Build
         env:
           NODE_ENV: production
+          CI: true
           VITE_BASE_PATH: /FlashMaster-Chile/
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-        run: npm run build
+        run: |
+          echo "🔨 Building with base path: $VITE_BASE_PATH"
+          echo "📦 NODE_ENV: $NODE_ENV"
+          echo "🔑 PIXABAY_API_KEY configured: $(if [ -n "$PIXABAY_API_KEY" ]; then echo "YES"; else echo "NO"; fi)"
+          npm run build
+          echo "✅ Build completed"
+          echo "📁 Checking dist/index.html..."
+          if [ -f "dist/index.html" ]; then
+            echo "--- HTML Script/Href tags ---"
+            grep -E "(src=|href=)" dist/index.html | head -10
+            echo "--- Base path in HTML ---"
+            grep -E "base|<base" dist/index.html || echo "No base tag found"
+          else
+            echo "❌ dist/index.html not found!"
+            ls -la dist/ || echo "dist/ directory doesn't exist"
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
