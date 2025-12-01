@@ -34,6 +34,8 @@ jobs:
 
       - name: Build
         env:
+          NODE_ENV: production
+          VITE_BASE_PATH: /FlashMaster-Chile/
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: npm run build
 
