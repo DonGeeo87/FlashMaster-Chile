@@ -40,4 +40,5 @@ export interface CourseConfig {
   targetLanguage: TargetLanguage;
   cardType: CardType;
   quantity: number;
+  showTranslations: boolean;
 }

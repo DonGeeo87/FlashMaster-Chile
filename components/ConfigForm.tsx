@@ -11,9 +11,9 @@ const ConfigForm: React.FC<ConfigFormProps> = ({ onGenerate, isLoading }) => {
   const [grade, setGrade] = useState<GradeLevel>(GradeLevel.BASICO_1);
   const [topic, setTopic] = useState<string>('');
   const [customTopic, setCustomTopic] = useState<string>('');
-  const [language, setLanguage] = useState<TargetLanguage>(TargetLanguage.ENGLISH);
   const [cardType, setCardType] = useState<CardType>(CardType.IMAGE_TEXT);
   const [quantity, setQuantity] = useState<number>(8);
+  const [showTranslations, setShowTranslations] = useState<boolean>(true);
 
   // Set default topic when grade changes
   useEffect(() => {
@@ -32,9 +32,10 @@ const ConfigForm: React.FC<ConfigFormProps> = ({ onGenerate, isLoading }) => {
     onGenerate({
       grade,
       topic: finalTopic,
-      targetLanguage: language,
+      targetLanguage: TargetLanguage.ENGLISH, // Always English
       cardType,
-      quantity
+      quantity,
+      showTranslations
     });
   };
 
@@ -107,36 +108,8 @@ const ConfigForm: React.FC<ConfigFormProps> = ({ onGenerate, isLoading }) => {
           )}
         </div>
 
-        {/* Language Selection */}
+        {/* Card Type and Translation Toggle */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">Idioma Objetivo</label>
-            <div className="flex space-x-2">
-              <button
-                type="button"
-                onClick={() => setLanguage(TargetLanguage.ENGLISH)}
-                className={`flex-1 py-3 px-4 rounded-lg border text-sm font-medium transition-colors ${
-                  language === TargetLanguage.ENGLISH
-                    ? 'bg-blue-600 text-white border-blue-600'
-                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                }`}
-              >
-                🇬🇧 Inglés
-              </button>
-              <button
-                type="button"
-                onClick={() => setLanguage(TargetLanguage.SPANISH)}
-                className={`flex-1 py-3 px-4 rounded-lg border text-sm font-medium transition-colors ${
-                  language === TargetLanguage.SPANISH
-                    ? 'bg-red-600 text-white border-red-600'
-                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                }`}
-              >
-                🇨🇱 Español
-              </button>
-            </div>
-          </div>
-
           <div>
              <label className="block text-sm font-medium text-gray-700 mb-2">Tipo de Flashcard</label>
              <select
@@ -148,6 +121,22 @@ const ConfigForm: React.FC<ConfigFormProps> = ({ onGenerate, isLoading }) => {
                <option value={CardType.TEXT_TRANSLATION}>📝 Palabra + Traducción</option>
                <option value={CardType.TEXT_DEFINITION}>📖 Palabra + Definición</option>
              </select>
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">Opciones</label>
+            <div className="flex items-center h-[52px] bg-gray-50 rounded-lg border border-gray-300 px-4">
+              <input
+                type="checkbox"
+                id="showTranslations"
+                checked={showTranslations}
+                onChange={(e) => setShowTranslations(e.target.checked)}
+                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+              />
+              <label htmlFor="showTranslations" className="ml-3 text-sm font-medium text-gray-700 cursor-pointer">
+                Mostrar traducciones al español
+              </label>
+            </div>
           </div>
         </div>
 

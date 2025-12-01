@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ConfigForm from './components/ConfigForm';
 import FlashcardItem from './components/FlashcardItem';
 import PrintLayout from './components/PrintLayout';
-import { generateVocabularyList } from './services/geminiService';
+import { generateVocabularyList } from './services/vocabularyService';
 import { CourseConfig, FlashcardData } from './types';
 
 function App() {
@@ -58,7 +58,7 @@ function App() {
               <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-indigo-600 leading-none">
                 FlashMaster Chile
               </h1>
-              <span className="text-xs text-gray-400 font-medium tracking-wider">CREADOR DE RECURSOS EDUCATIVOS</span>
+              <span className="text-xs text-gray-400 font-medium tracking-wider">ENGLISH TEACHING RESOURCES</span>
             </div>
           </div>
           
@@ -93,12 +93,12 @@ function App() {
         {step === 1 && (
           <div className="flex flex-col items-center justify-center min-h-[70vh]">
              <div className="text-center mb-12 max-w-2xl animate-fade-in-up">
-                <div className="inline-block p-3 rounded-full bg-blue-50 mb-4">
-                  <span className="text-4xl">🇨🇱</span>
+                <div className="inline-block p-4 rounded-full bg-blue-50 mb-6">
+                  <h1 className="text-3xl font-bold text-blue-700">Hello Teacher!</h1>
                 </div>
-                <h2 className="text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">Crea material didáctico <br/>en segundos</h2>
+                <h2 className="text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">Create English flashcards <br/>in seconds</h2>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Selecciona tu curso y temática. Nuestra IA generará el plan de estudios adaptado al currículum chileno y buscará fotografías reales de alta calidad automáticamente.
+                  Select your grade level and topic. The system will choose appropriate vocabulary from the Chilean curriculum and automatically search for high-quality educational illustrations.
                 </p>
              </div>
              <ConfigForm onGenerate={handleGenerate} isLoading={isLoading} />
@@ -113,7 +113,7 @@ function App() {
                 <div className="flex items-center space-x-3">
                   <span className="px-3 py-1 bg-gray-100 rounded-full text-sm font-semibold text-gray-700">{config.grade}</span>
                   <span className="text-gray-300">|</span>
-                  <span className="text-gray-600 font-medium">{config.targetLanguage === 'Inglés' ? '🇬🇧 Inglés' : '🇨🇱 Español'}</span>
+                  <span className="text-gray-600 font-medium">🇬🇧 Inglés</span>
                   <span className="text-gray-300">|</span>
                   <span className="text-gray-600 font-medium">{config.cardType}</span>
                 </div>
@@ -133,6 +133,7 @@ function App() {
                   data={card}
                   type={config.cardType}
                   onUpdate={handleUpdateCard}
+                  showTranslations={config.showTranslations}
                 />
               ))}
             </div>

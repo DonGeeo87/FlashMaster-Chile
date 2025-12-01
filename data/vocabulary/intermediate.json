@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Vocabulario intermedio para niveles 3-6 Básico"
+  },
+  "vocabulary": {
+    "La Escuela": {
+      "en": [
+        {
+          "term": "Teacher",
+          "translation": "Profesor",
+          "definition": "A person who teaches students",
+          "imageKeyword": "teacher classroom student"
+        },
+        {
+          "term": "Student",
+          "translation": "Estudiante",
+          "definition": "A person who learns at school",
+          "imageKeyword": "student school desk"
+        },
+        {
+          "term": "Book",
+          "translation": "Libro",
+          "definition": "Something you read with pages",
+          "imageKeyword": "open book desk"
+        },
+        {
+          "term": "Pen",
+          "translation": "Bolígrafo",
+          "definition": "Something you write with",
+          "imageKeyword": "pen writing paper"
+        },
+        {
+          "term": "Pencil",
+          "translation": "Lápiz",
+          "definition": "Something you write and draw with",
+          "imageKeyword": "pencil drawing paper"
+        },
+        {
+          "term": "Desk",
+          "translation": "Escritorio",
+          "definition": "A table where you study",
+          "imageKeyword": "school desk classroom"
+        },
+        {
+          "term": "Backpack",
+          "translation": "Mochila",
+          "definition": "A bag you carry to school",
+          "imageKeyword": "backpack school bag"
+        },
+        {
+          "term": "Chalkboard",
+          "translation": "Pizarra",
+          "definition": "A black board where teachers write",
+          "imageKeyword": "blackboard chalk classroom"
+        }
+      ]
+    },
+    "Profesiones": {
+      "en": [
+        {
+          "term": "Doctor",
+          "translation": "Doctor",
+          "definition": "A person who helps sick people",
+          "imageKeyword": "doctor medical professional"
+        },
+        {
+          "term": "Teacher",
+          "translation": "Profesor",
+          "definition": "A person who teaches",
+          "imageKeyword": "teacher classroom"
+        },
+        {
+          "term": "Firefighter",
+          "translation": "Bombero",
+          "definition": "A person who puts out fires",
+          "imageKeyword": "firefighter fire truck"
+        },
+        {
+          "term": "Police Officer",
+          "translation": "Policía",
+          "definition": "A person who keeps us safe",
+          "imageKeyword": "police officer uniform"
+        },
+        {
+          "term": "Chef",
+          "translation": "Cocinero",
+          "definition": "A person who cooks food",
+          "imageKeyword": "chef cooking kitchen"
+        },
+        {
+          "term": "Nurse",
+          "translation": "Enfermera",
+          "definition": "A person who helps doctors",
+          "imageKeyword": "nurse medical uniform"
+        },
+        {
+          "term": "Pilot",
+          "translation": "Piloto",
+          "definition": "A person who flies airplanes",
+          "imageKeyword": "pilot airplane cockpit"
+        },
+        {
+          "term": "Farmer",
+          "translation": "Granjero",
+          "definition": "A person who grows food",
+          "imageKeyword": "farmer farm field"
+        }
+      ]
+    },
+    "Días de la semana": {
+      "en": [
+        {
+          "term": "Monday",
+          "translation": "Lunes",
+          "definition": "The first day of the week",
+          "imageKeyword": "calendar monday page"
+        },
+        {
+          "term": "Tuesday",
+          "translation": "Martes",
+          "definition": "The second day of the week",
+          "imageKeyword": "calendar tuesday page"
+        },
+        {
+          "term": "Wednesday",
+          "translation": "Miércoles",
+          "definition": "The middle day of the week",
+          "imageKeyword": "calendar wednesday page"
+        },
+        {
+          "term": "Thursday",
+          "translation": "Jueves",
+          "definition": "The fourth day of the week",
+          "imageKeyword": "calendar thursday page"
+        },
+        {
+          "term": "Friday",
+          "translation": "Viernes",
+          "definition": "The fifth day of the week",
+          "imageKeyword": "calendar friday page"
+        },
+        {
+          "term": "Saturday",
+          "translation": "Sábado",
+          "definition": "The weekend day",
+          "imageKeyword": "calendar saturday weekend"
+        },
+        {
+          "term": "Sunday",
+          "translation": "Domingo",
+          "definition": "The last day of the week",
+          "imageKeyword": "calendar sunday weekend"
+        }
+      ]
+    }
+  }
+}
+

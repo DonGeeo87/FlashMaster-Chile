@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { FlashcardData, CardType } from '../types';
-import { regenerateCardImage } from '../services/geminiService';
+import { regenerateCardImage } from '../services/pixabayService';
 
 interface FlashcardItemProps {
   data: FlashcardData;
   type: CardType;
   onUpdate: (id: string, updates: Partial<FlashcardData>) => void;
+  showTranslations?: boolean;
 }
 
-const FlashcardItem: React.FC<FlashcardItemProps> = ({ data, type, onUpdate }) => {
+const FlashcardItem: React.FC<FlashcardItemProps> = ({ data, type, onUpdate, showTranslations = true }) => {
   const [currentImageUrl, setCurrentImageUrl] = useState<string | undefined>(data.imageUrl);
   const [isImageLoading, setIsImageLoading] = useState<boolean>(true);
   const [imageError, setImageError] = useState<boolean>(false);
@@ -129,7 +130,7 @@ const FlashcardItem: React.FC<FlashcardItemProps> = ({ data, type, onUpdate }) =
         <h3 className="text-2xl font-bold text-gray-800 mb-1 leading-tight">{data.term}</h3>
         
         {/* Secondary text logic */}
-        {(type !== CardType.IMAGE_TEXT || !data.imageUrl) && (
+        {(type !== CardType.IMAGE_TEXT || !data.imageUrl) && showTranslations && (
              <p className="text-gray-500 font-medium text-lg mt-1">{data.secondaryText}</p>
         )}
         

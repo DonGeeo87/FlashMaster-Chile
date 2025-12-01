@@ -62,13 +62,15 @@ const PrintLayout: React.FC<PrintLayoutProps> = ({ cards, config }) => {
         <div className="break-after-page"></div>
 
         {/* === SET 2: WORDS ONLY === */}
-        {renderCover("Set de Palabras", `Vocabulario en ${config.targetLanguage}`)}
+        {renderCover("Set de Palabras", "Vocabulario en Inglés")}
 
         <div className="w-full py-8">
           {renderGrid(cards.map((card) => (
              <div key={`txt-${card.id}`} className="border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center h-[300px]">
                 <h2 className="text-5xl font-bold text-center text-black leading-tight">{card.term}</h2>
-                <p className="text-lg text-gray-400 mt-4 font-light">{card.secondaryText}</p>
+                {config.showTranslations && (
+                  <p className="text-lg text-gray-400 mt-4 font-light">{card.secondaryText}</p>
+                )}
              </div>
           )))}
         </div>
@@ -81,7 +83,7 @@ const PrintLayout: React.FC<PrintLayoutProps> = ({ cards, config }) => {
   // Just one set of cards combined
   return (
     <div className="print-only w-full bg-white">
-      {renderCover("Flashcards de Estudio", `${config.cardType} - ${config.targetLanguage}`)}
+      {renderCover("Flashcards de Estudio", `${config.cardType} - Inglés`)}
 
       <div className="w-full py-8">
         {renderGrid(cards.map((card) => (
@@ -90,7 +92,9 @@ const PrintLayout: React.FC<PrintLayoutProps> = ({ cards, config }) => {
             className="border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center h-[300px] relative"
           >
             <h2 className="text-4xl font-bold mb-4 text-center text-black">{card.term}</h2>
-            <p className="text-2xl text-gray-600 text-center font-light">{card.secondaryText}</p>
+            {config.showTranslations && (
+              <p className="text-2xl text-gray-600 text-center font-light">{card.secondaryText}</p>
+            )}
           </div>
         )))}
       </div>

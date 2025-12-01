@@ -1,0 +1,1379 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Vocabulario base para FlashMaster Chile - Sin dependencia de IA"
+  },
+  "vocabulary": {
+    "Colors": {
+      "en": [
+        {
+          "term": "Red",
+          "translation": "Rojo",
+          "definition": "A primary color like fire or apples",
+          "imageKeyword": "red circle illustration"
+        },
+        {
+          "term": "Blue",
+          "translation": "Azul",
+          "definition": "A primary color like the sky or ocean",
+          "imageKeyword": "blue circle illustration"
+        },
+        {
+          "term": "Yellow",
+          "translation": "Amarillo",
+          "definition": "A bright color like the sun or bananas",
+          "imageKeyword": "yellow circle illustration"
+        },
+        {
+          "term": "Green",
+          "translation": "Verde",
+          "definition": "A color like grass or leaves",
+          "imageKeyword": "green circle illustration"
+        },
+        {
+          "term": "Orange",
+          "translation": "Naranja",
+          "definition": "A color like oranges or carrots",
+          "imageKeyword": "orange circle illustration"
+        },
+        {
+          "term": "Purple",
+          "translation": "Morado",
+          "definition": "A color like grapes or violets",
+          "imageKeyword": "purple circle illustration"
+        },
+        {
+          "term": "Pink",
+          "translation": "Rosa",
+          "definition": "A light red color like roses",
+          "imageKeyword": "pink circle illustration"
+        },
+        {
+          "term": "Black",
+          "translation": "Negro",
+          "definition": "The darkest color, like night",
+          "imageKeyword": "black circle illustration"
+        },
+        {
+          "term": "White",
+          "translation": "Blanco",
+          "definition": "The lightest color, like snow",
+          "imageKeyword": "white circle illustration"
+        },
+        {
+          "term": "Brown",
+          "translation": "Café",
+          "definition": "A color like wood or chocolate",
+          "imageKeyword": "brown circle illustration"
+        },
+        {
+          "term": "Gray",
+          "translation": "Gris",
+          "definition": "A color between black and white",
+          "imageKeyword": "gray circle illustration"
+        }
+      ],
+      "es": [
+        {
+          "term": "Rojo",
+          "translation": "Red",
+          "definition": "Un color primario como el fuego o las manzanas",
+          "imageKeyword": "red apple isolated"
+        },
+        {
+          "term": "Azul",
+          "translation": "Blue",
+          "definition": "Un color primario como el cielo o el océano",
+          "imageKeyword": "blue ocean waves"
+        },
+        {
+          "term": "Amarillo",
+          "translation": "Yellow",
+          "definition": "Un color brillante como el sol o los plátanos",
+          "imageKeyword": "yellow sunflowers field"
+        },
+        {
+          "term": "Verde",
+          "translation": "Green",
+          "definition": "Un color como la hierba o las hojas",
+          "imageKeyword": "green grass field"
+        },
+        {
+          "term": "Naranja",
+          "translation": "Orange",
+          "definition": "Un color como las naranjas o las zanahorias",
+          "imageKeyword": "orange fruit isolated"
+        }
+      ]
+    },
+    "Numbers 1–20": {
+      "en": [
+        {
+          "term": "One",
+          "translation": "Uno",
+          "definition": "The number 1",
+          "imageKeyword": "number one isolated"
+        },
+        {
+          "term": "Two",
+          "translation": "Dos",
+          "definition": "The number 2",
+          "imageKeyword": "two apples together"
+        },
+        {
+          "term": "Three",
+          "translation": "Tres",
+          "definition": "The number 3",
+          "imageKeyword": "three balls colorful"
+        },
+        {
+          "term": "Four",
+          "translation": "Cuatro",
+          "definition": "The number 4",
+          "imageKeyword": "four flowers bouquet"
+        },
+        {
+          "term": "Five",
+          "translation": "Cinco",
+          "definition": "The number 5",
+          "imageKeyword": "five fingers hand"
+        },
+        {
+          "term": "Six",
+          "translation": "Seis",
+          "definition": "The number 6",
+          "imageKeyword": "six dice dots"
+        },
+        {
+          "term": "Seven",
+          "translation": "Siete",
+          "definition": "The number 7",
+          "imageKeyword": "seven stars constellation"
+        },
+        {
+          "term": "Eight",
+          "translation": "Ocho",
+          "definition": "The number 8",
+          "imageKeyword": "eight cookies plate"
+        },
+        {
+          "term": "Nine",
+          "translation": "Nueve",
+          "definition": "The number 9",
+          "imageKeyword": "nine balloons party"
+        },
+        {
+          "term": "Ten",
+          "translation": "Diez",
+          "definition": "The number 10",
+          "imageKeyword": "ten fingers hands"
+        }
+      ]
+    },
+    "Animals (pets)": {
+      "en": [
+        {
+          "term": "Cow",
+          "translation": "Vaca",
+          "definition": "A farm animal that gives milk",
+          "imageKeyword": "cow farm animal"
+        },
+        {
+          "term": "Pig",
+          "translation": "Cerdo",
+          "definition": "A pink farm animal",
+          "imageKeyword": "pig farm cute"
+        },
+        {
+          "term": "Chicken",
+          "translation": "Pollo",
+          "definition": "A farm bird that lays eggs",
+          "imageKeyword": "chicken farm bird"
+        },
+        {
+          "term": "Horse",
+          "translation": "Caballo",
+          "definition": "A large farm animal you can ride",
+          "imageKeyword": "horse farm animal"
+        },
+        {
+          "term": "Sheep",
+          "translation": "Oveja",
+          "definition": "A fluffy farm animal",
+          "imageKeyword": "sheep farm fluffy"
+        },
+        {
+          "term": "Duck",
+          "translation": "Pato",
+          "definition": "A farm bird that swims",
+          "imageKeyword": "duck pond swimming"
+        },
+        {
+          "term": "Goat",
+          "translation": "Cabra",
+          "definition": "A farm animal that eats grass",
+          "imageKeyword": "goat farm animal"
+        },
+        {
+          "term": "Rooster",
+          "translation": "Gallo",
+          "definition": "A male chicken that crows",
+          "imageKeyword": "rooster farm bird"
+        }
+      ]
+    },
+    "Shapes": {
+      "en": [
+        {
+          "term": "Circle",
+          "translation": "Círculo",
+          "definition": "A round shape like a ball or coin",
+          "imageKeyword": "circle shape round"
+        },
+        {
+          "term": "Square",
+          "translation": "Cuadrado",
+          "definition": "A shape with four equal sides",
+          "imageKeyword": "square shape geometric"
+        },
+        {
+          "term": "Triangle",
+          "translation": "Triángulo",
+          "definition": "A shape with three sides",
+          "imageKeyword": "triangle shape geometric"
+        },
+        {
+          "term": "Rectangle",
+          "translation": "Rectángulo",
+          "definition": "A shape with four sides, two long and two short",
+          "imageKeyword": "rectangle shape geometric"
+        },
+        {
+          "term": "Star",
+          "translation": "Estrella",
+          "definition": "A shape with five or more points",
+          "imageKeyword": "star shape yellow"
+        },
+        {
+          "term": "Heart",
+          "translation": "Corazón",
+          "definition": "A shape that represents love",
+          "imageKeyword": "heart shape red"
+        },
+        {
+          "term": "Diamond",
+          "translation": "Diamante",
+          "definition": "A shape with four equal sides pointing up and down",
+          "imageKeyword": "diamond shape geometric"
+        },
+        {
+          "term": "Oval",
+          "translation": "Óvalo",
+          "definition": "A shape like an egg or a stretched circle",
+          "imageKeyword": "oval shape geometric"
+        }
+      ],
+      "es": [
+        {
+          "term": "Círculo",
+          "translation": "Circle",
+          "definition": "Una forma redonda como una pelota o moneda",
+          "imageKeyword": "circle shape round"
+        },
+        {
+          "term": "Cuadrado",
+          "translation": "Square",
+          "definition": "Una forma con cuatro lados iguales",
+          "imageKeyword": "square shape geometric"
+        },
+        {
+          "term": "Triángulo",
+          "translation": "Triangle",
+          "definition": "Una forma con tres lados",
+          "imageKeyword": "triangle shape geometric"
+        }
+      ]
+    },
+    "Family members": {
+      "en": [
+        {
+          "term": "Mom",
+          "translation": "Mamá",
+          "definition": "Your mother, a female parent",
+          "imageKeyword": "mother happy family"
+        },
+        {
+          "term": "Dad",
+          "translation": "Papá",
+          "definition": "Your father, a male parent",
+          "imageKeyword": "father happy family"
+        },
+        {
+          "term": "Brother",
+          "translation": "Hermano",
+          "definition": "A male sibling",
+          "imageKeyword": "brother children playing"
+        },
+        {
+          "term": "Sister",
+          "translation": "Hermana",
+          "definition": "A female sibling",
+          "imageKeyword": "sister children happy"
+        },
+        {
+          "term": "Grandma",
+          "translation": "Abuela",
+          "definition": "Your grandmother, your parent's mother",
+          "imageKeyword": "grandmother happy old"
+        },
+        {
+          "term": "Grandpa",
+          "translation": "Abuelo",
+          "definition": "Your grandfather, your parent's father",
+          "imageKeyword": "grandfather happy old"
+        },
+        {
+          "term": "Baby",
+          "translation": "Bebé",
+          "definition": "A very young child",
+          "imageKeyword": "baby cute smiling"
+        },
+        {
+          "term": "Family",
+          "translation": "Familia",
+          "definition": "A group of people related to each other",
+          "imageKeyword": "happy family together"
+        }
+      ],
+      "es": [
+        {
+          "term": "Mamá",
+          "translation": "Mom",
+          "definition": "Tu madre, una progenitora",
+          "imageKeyword": "mother happy family"
+        },
+        {
+          "term": "Papá",
+          "translation": "Dad",
+          "definition": "Tu padre, un progenitor",
+          "imageKeyword": "father happy family"
+        },
+        {
+          "term": "Hermano",
+          "translation": "Brother",
+          "definition": "Un hermano varón",
+          "imageKeyword": "brother children playing"
+        }
+      ]
+    },
+    "School objects": {
+      "en": [
+        {
+          "term": "Book",
+          "translation": "Libro",
+          "definition": "Something you read with pages",
+          "imageKeyword": "open book desk"
+        },
+        {
+          "term": "Pencil",
+          "translation": "Lápiz",
+          "definition": "Something you write and draw with",
+          "imageKeyword": "pencil drawing paper"
+        },
+        {
+          "term": "Eraser",
+          "translation": "Goma",
+          "definition": "Something that removes pencil marks",
+          "imageKeyword": "eraser pencil white"
+        },
+        {
+          "term": "Backpack",
+          "translation": "Mochila",
+          "definition": "A bag you carry to school",
+          "imageKeyword": "backpack school bag"
+        },
+        {
+          "term": "Ruler",
+          "translation": "Regla",
+          "definition": "A tool to measure and draw straight lines",
+          "imageKeyword": "ruler measure school"
+        },
+        {
+          "term": "Scissors",
+          "translation": "Tijeras",
+          "definition": "A tool to cut paper",
+          "imageKeyword": "scissors cut paper"
+        },
+        {
+          "term": "Glue",
+          "translation": "Pegamento",
+          "definition": "Something that sticks things together",
+          "imageKeyword": "glue stick school"
+        },
+        {
+          "term": "Crayon",
+          "translation": "Crayón",
+          "definition": "A colored stick for drawing",
+          "imageKeyword": "crayon colorful drawing"
+        }
+      ],
+      "es": [
+        {
+          "term": "Libro",
+          "translation": "Book",
+          "definition": "Algo que lees con páginas",
+          "imageKeyword": "open book desk"
+        },
+        {
+          "term": "Lápiz",
+          "translation": "Pencil",
+          "definition": "Algo con lo que escribes y dibujas",
+          "imageKeyword": "pencil drawing paper"
+        },
+        {
+          "term": "Mochila",
+          "translation": "Backpack",
+          "definition": "Una bolsa que llevas a la escuela",
+          "imageKeyword": "backpack school bag"
+        }
+      ]
+    },
+    "Toys": {
+      "en": [
+        {
+          "term": "Doll",
+          "translation": "Muñeca",
+          "definition": "A toy that looks like a person",
+          "imageKeyword": "doll toy illustration"
+        },
+        {
+          "term": "Ball",
+          "translation": "Pelota",
+          "definition": "A round toy you can throw and catch",
+          "imageKeyword": "ball toy illustration"
+        },
+        {
+          "term": "Teddy bear",
+          "translation": "Osito de peluche",
+          "definition": "A soft toy bear",
+          "imageKeyword": "teddy bear toy illustration"
+        },
+        {
+          "term": "Car",
+          "translation": "Auto",
+          "definition": "A small toy vehicle",
+          "imageKeyword": "toy car illustration"
+        },
+        {
+          "term": "Puzzle",
+          "translation": "Rompecabezas",
+          "definition": "A game with pieces that fit together",
+          "imageKeyword": "puzzle toy illustration"
+        },
+        {
+          "term": "Blocks",
+          "translation": "Bloques",
+          "definition": "Toy pieces you can build with",
+          "imageKeyword": "blocks toy illustration"
+        },
+        {
+          "term": "Kite",
+          "translation": "Cometa",
+          "definition": "A toy that flies in the wind",
+          "imageKeyword": "kite toy illustration"
+        },
+        {
+          "term": "Yo-yo",
+          "translation": "Yo-yo",
+          "definition": "A toy that goes up and down on a string",
+          "imageKeyword": "yo-yo toy illustration"
+        },
+        {
+          "term": "Robot",
+          "translation": "Robot",
+          "definition": "A toy that looks like a machine",
+          "imageKeyword": "robot toy illustration"
+        },
+        {
+          "term": "Train",
+          "translation": "Tren",
+          "definition": "A toy vehicle with many cars",
+          "imageKeyword": "toy train illustration"
+        },
+        {
+          "term": "Airplane",
+          "translation": "Avión",
+          "definition": "A toy that looks like it can fly",
+          "imageKeyword": "toy airplane illustration"
+        },
+        {
+          "term": "Drum",
+          "translation": "Tambor",
+          "definition": "A musical toy you can hit",
+          "imageKeyword": "toy drum illustration"
+        },
+        {
+          "term": "Puppet",
+          "translation": "Títere",
+          "definition": "A toy you can move with your hand",
+          "imageKeyword": "puppet toy illustration"
+        }
+      ]
+    },
+    "Clothes (básico)": {
+      "en": [
+        {
+          "term": "Shirt",
+          "translation": "Camisa",
+          "definition": "A piece of clothing for the upper body",
+          "imageKeyword": "shirt clothing illustration"
+        },
+        {
+          "term": "Pants",
+          "translation": "Pantalones",
+          "definition": "Clothing for your legs",
+          "imageKeyword": "pants clothing illustration"
+        },
+        {
+          "term": "Dress",
+          "translation": "Vestido",
+          "definition": "A piece of clothing for girls",
+          "imageKeyword": "dress clothing illustration"
+        },
+        {
+          "term": "Shoes",
+          "translation": "Zapatos",
+          "definition": "What you wear on your feet",
+          "imageKeyword": "shoes illustration"
+        },
+        {
+          "term": "Hat",
+          "translation": "Gorro",
+          "definition": "Something you wear on your head",
+          "imageKeyword": "hat illustration"
+        },
+        {
+          "term": "Socks",
+          "translation": "Calcetines",
+          "definition": "What you wear inside your shoes",
+          "imageKeyword": "socks illustration"
+        },
+        {
+          "term": "Jacket",
+          "translation": "Chaqueta",
+          "definition": "A piece of clothing to keep warm",
+          "imageKeyword": "jacket clothing illustration"
+        },
+        {
+          "term": "Shorts",
+          "translation": "Shorts",
+          "definition": "Short pants for warm weather",
+          "imageKeyword": "shorts clothing illustration"
+        },
+        {
+          "term": "Skirt",
+          "translation": "Falda",
+          "definition": "A piece of clothing for girls",
+          "imageKeyword": "skirt clothing illustration"
+        },
+        {
+          "term": "T-shirt",
+          "translation": "Polera",
+          "definition": "A casual shirt with short sleeves",
+          "imageKeyword": "t-shirt clothing illustration"
+        },
+        {
+          "term": "Sweater",
+          "translation": "Suéter",
+          "definition": "Warm clothing for cold days",
+          "imageKeyword": "sweater clothing illustration"
+        }
+      ]
+    },
+    "Weather simple": {
+      "en": [
+        {
+          "term": "Sunny",
+          "translation": "Soleado",
+          "definition": "When the sun is shining",
+          "imageKeyword": "sunny weather illustration"
+        },
+        {
+          "term": "Rainy",
+          "translation": "Lluvioso",
+          "definition": "When it rains",
+          "imageKeyword": "rainy weather illustration"
+        },
+        {
+          "term": "Cloudy",
+          "translation": "Nublado",
+          "definition": "When there are many clouds",
+          "imageKeyword": "cloudy weather illustration"
+        },
+        {
+          "term": "Windy",
+          "translation": "Ventoso",
+          "definition": "When the wind is strong",
+          "imageKeyword": "windy weather illustration"
+        },
+        {
+          "term": "Snowy",
+          "translation": "Nevado",
+          "definition": "When it snows",
+          "imageKeyword": "snowy weather illustration"
+        },
+        {
+          "term": "Hot",
+          "translation": "Calor",
+          "definition": "When the temperature is high",
+          "imageKeyword": "hot sun illustration"
+        },
+        {
+          "term": "Cold",
+          "translation": "Frío",
+          "definition": "When the temperature is low",
+          "imageKeyword": "cold weather illustration"
+        }
+      ]
+    },
+    "Food (favorite foods)": {
+      "en": [
+        {
+          "term": "Apple",
+          "translation": "Manzana",
+          "definition": "A red or green fruit",
+          "imageKeyword": "apple fruit illustration"
+        },
+        {
+          "term": "Banana",
+          "translation": "Plátano",
+          "definition": "A yellow fruit",
+          "imageKeyword": "banana fruit illustration"
+        },
+        {
+          "term": "Pizza",
+          "translation": "Pizza",
+          "definition": "A round food with cheese and toppings",
+          "imageKeyword": "pizza food illustration"
+        },
+        {
+          "term": "Ice cream",
+          "translation": "Helado",
+          "definition": "A cold, sweet dessert",
+          "imageKeyword": "ice cream illustration"
+        },
+        {
+          "term": "Cake",
+          "translation": "Pastel",
+          "definition": "A sweet dessert for special days",
+          "imageKeyword": "cake dessert illustration"
+        },
+        {
+          "term": "Bread",
+          "translation": "Pan",
+          "definition": "Food made from flour",
+          "imageKeyword": "bread food illustration"
+        },
+        {
+          "term": "Milk",
+          "translation": "Leche",
+          "definition": "A white drink",
+          "imageKeyword": "milk drink illustration"
+        },
+        {
+          "term": "Juice",
+          "translation": "Jugo",
+          "definition": "A sweet drink from fruits",
+          "imageKeyword": "juice drink illustration"
+        },
+        {
+          "term": "Cookie",
+          "translation": "Galleta",
+          "definition": "A small sweet snack",
+          "imageKeyword": "cookie snack illustration"
+        },
+        {
+          "term": "Sandwich",
+          "translation": "Sándwich",
+          "definition": "Food with bread and fillings",
+          "imageKeyword": "sandwich food illustration"
+        },
+        {
+          "term": "Chicken",
+          "translation": "Pollo",
+          "definition": "A type of meat",
+          "imageKeyword": "chicken food illustration"
+        },
+        {
+          "term": "Rice",
+          "translation": "Arroz",
+          "definition": "White grains you eat with meals",
+          "imageKeyword": "rice food illustration"
+        },
+        {
+          "term": "Egg",
+          "translation": "Huevo",
+          "definition": "Food that comes from a chicken",
+          "imageKeyword": "egg food illustration"
+        },
+        {
+          "term": "Cheese",
+          "translation": "Queso",
+          "definition": "A dairy food",
+          "imageKeyword": "cheese food illustration"
+        }
+      ]
+    },
+    "Actions (run, jump, clap)": {
+      "en": [
+        {
+          "term": "Run",
+          "translation": "Correr",
+          "definition": "To move fast with your legs",
+          "imageKeyword": "child running illustration"
+        },
+        {
+          "term": "Jump",
+          "translation": "Saltar",
+          "definition": "To go up in the air",
+          "imageKeyword": "child jumping illustration"
+        },
+        {
+          "term": "Clap",
+          "translation": "Aplaudir",
+          "definition": "To hit your hands together",
+          "imageKeyword": "clapping hands illustration"
+        },
+        {
+          "term": "Walk",
+          "translation": "Caminar",
+          "definition": "To move on foot",
+          "imageKeyword": "child walking illustration"
+        },
+        {
+          "term": "Sit",
+          "translation": "Sentarse",
+          "definition": "To rest on a chair",
+          "imageKeyword": "child sitting illustration"
+        },
+        {
+          "term": "Stand",
+          "translation": "Pararse",
+          "definition": "To be on your feet",
+          "imageKeyword": "child standing illustration"
+        },
+        {
+          "term": "Dance",
+          "translation": "Bailar",
+          "definition": "To move to music",
+          "imageKeyword": "child dancing illustration"
+        },
+        {
+          "term": "Sing",
+          "translation": "Cantar",
+          "definition": "To make music with your voice",
+          "imageKeyword": "child singing illustration"
+        },
+        {
+          "term": "Sleep",
+          "translation": "Dormir",
+          "definition": "To rest with your eyes closed",
+          "imageKeyword": "child sleeping illustration"
+        },
+        {
+          "term": "Eat",
+          "translation": "Comer",
+          "definition": "To put food in your mouth",
+          "imageKeyword": "child eating illustration"
+        },
+        {
+          "term": "Play",
+          "translation": "Jugar",
+          "definition": "To have fun",
+          "imageKeyword": "children playing illustration"
+        }
+      ]
+    },
+    "Feelings (happy, sad, scared)": {
+      "en": [
+        {
+          "term": "Happy",
+          "translation": "Feliz",
+          "definition": "Feeling good and smiling",
+          "imageKeyword": "happy child illustration"
+        },
+        {
+          "term": "Sad",
+          "translation": "Triste",
+          "definition": "Feeling down or upset",
+          "imageKeyword": "sad child illustration"
+        },
+        {
+          "term": "Angry",
+          "translation": "Enojado",
+          "definition": "Feeling mad",
+          "imageKeyword": "angry child illustration"
+        },
+        {
+          "term": "Scared",
+          "translation": "Asustado",
+          "definition": "Feeling afraid",
+          "imageKeyword": "scared child illustration"
+        },
+        {
+          "term": "Excited",
+          "translation": "Emocionado",
+          "definition": "Feeling very happy about something",
+          "imageKeyword": "excited child illustration"
+        },
+        {
+          "term": "Tired",
+          "translation": "Cansado",
+          "definition": "Needing to rest",
+          "imageKeyword": "tired child illustration"
+        },
+        {
+          "term": "Surprised",
+          "translation": "Sorprendido",
+          "definition": "Feeling shocked",
+          "imageKeyword": "surprised child illustration"
+        },
+        {
+          "term": "Worried",
+          "translation": "Preocupado",
+          "definition": "Feeling anxious",
+          "imageKeyword": "worried child illustration"
+        }
+      ]
+    },
+    "Animals (wild vs. farm)": {
+      "en": [
+        {
+          "term": "Lion",
+          "translation": "León",
+          "definition": "A wild cat with a mane",
+          "imageKeyword": "lion wild animal illustration"
+        },
+        {
+          "term": "Elephant",
+          "translation": "Elefante",
+          "definition": "A large wild animal with a trunk",
+          "imageKeyword": "elephant wild animal illustration"
+        },
+        {
+          "term": "Monkey",
+          "translation": "Mono",
+          "definition": "A wild animal that climbs trees",
+          "imageKeyword": "monkey wild animal illustration"
+        },
+        {
+          "term": "Zebra",
+          "translation": "Cebra",
+          "definition": "A wild animal with black and white stripes",
+          "imageKeyword": "zebra wild animal illustration"
+        },
+        {
+          "term": "Giraffe",
+          "translation": "Jirafa",
+          "definition": "A wild animal with a very long neck",
+          "imageKeyword": "giraffe wild animal illustration"
+        },
+        {
+          "term": "Tiger",
+          "translation": "Tigre",
+          "definition": "A wild cat with stripes",
+          "imageKeyword": "tiger wild animal illustration"
+        },
+        {
+          "term": "Cow",
+          "translation": "Vaca",
+          "definition": "A farm animal that gives milk",
+          "imageKeyword": "cow farm animal illustration"
+        },
+        {
+          "term": "Pig",
+          "translation": "Cerdo",
+          "definition": "A pink farm animal",
+          "imageKeyword": "pig farm animal illustration"
+        },
+        {
+          "term": "Horse",
+          "translation": "Caballo",
+          "definition": "A large farm animal you can ride",
+          "imageKeyword": "horse farm animal illustration"
+        },
+        {
+          "term": "Sheep",
+          "translation": "Oveja",
+          "definition": "A fluffy farm animal",
+          "imageKeyword": "sheep farm animal illustration"
+        },
+        {
+          "term": "Chicken",
+          "translation": "Pollo",
+          "definition": "A farm bird that lays eggs",
+          "imageKeyword": "chicken farm animal illustration"
+        },
+        {
+          "term": "Duck",
+          "translation": "Pato",
+          "definition": "A farm bird that swims",
+          "imageKeyword": "duck farm animal illustration"
+        }
+      ]
+    },
+    "Food 🥗 (frutas, vegetales, snacks)": {
+      "en": [
+        {
+          "term": "Orange",
+          "translation": "Naranja",
+          "definition": "A round orange fruit",
+          "imageKeyword": "orange fruit illustration"
+        },
+        {
+          "term": "Strawberry",
+          "translation": "Frutilla",
+          "definition": "A red fruit with seeds",
+          "imageKeyword": "strawberry fruit illustration"
+        },
+        {
+          "term": "Grapes",
+          "translation": "Uvas",
+          "definition": "Small round fruits in bunches",
+          "imageKeyword": "grapes fruit illustration"
+        },
+        {
+          "term": "Watermelon",
+          "translation": "Sandía",
+          "definition": "A large green fruit with red inside",
+          "imageKeyword": "watermelon fruit illustration"
+        },
+        {
+          "term": "Carrot",
+          "translation": "Zanahoria",
+          "definition": "An orange vegetable",
+          "imageKeyword": "carrot vegetable illustration"
+        },
+        {
+          "term": "Tomato",
+          "translation": "Tomate",
+          "definition": "A red vegetable",
+          "imageKeyword": "tomato vegetable illustration"
+        },
+        {
+          "term": "Potato",
+          "translation": "Papa",
+          "definition": "A brown vegetable",
+          "imageKeyword": "potato vegetable illustration"
+        },
+        {
+          "term": "Corn",
+          "translation": "Maíz",
+          "definition": "Yellow grains on a cob",
+          "imageKeyword": "corn vegetable illustration"
+        },
+        {
+          "term": "Chips",
+          "translation": "Papas fritas",
+          "definition": "Crispy fried snacks",
+          "imageKeyword": "chips snack illustration"
+        },
+        {
+          "term": "Candy",
+          "translation": "Dulce",
+          "definition": "A sweet snack",
+          "imageKeyword": "candy snack illustration"
+        },
+        {
+          "term": "Popcorn",
+          "translation": "Palomitas",
+          "definition": "Popped corn kernels",
+          "imageKeyword": "popcorn snack illustration"
+        },
+        {
+          "term": "Nuts",
+          "translation": "Nueces",
+          "definition": "Small crunchy snacks",
+          "imageKeyword": "nuts snack illustration"
+        }
+      ]
+    },
+    "Daily routines (wake up, brush teeth, sleep)": {
+      "en": [
+        {
+          "term": "Wake up",
+          "translation": "Despertar",
+          "definition": "To open your eyes in the morning",
+          "imageKeyword": "child waking up illustration"
+        },
+        {
+          "term": "Brush teeth",
+          "translation": "Cepillarse los dientes",
+          "definition": "To clean your teeth",
+          "imageKeyword": "child brushing teeth illustration"
+        },
+        {
+          "term": "Get dressed",
+          "translation": "Vestirse",
+          "definition": "To put on clothes",
+          "imageKeyword": "child getting dressed illustration"
+        },
+        {
+          "term": "Eat breakfast",
+          "translation": "Desayunar",
+          "definition": "To eat the morning meal",
+          "imageKeyword": "child eating breakfast illustration"
+        },
+        {
+          "term": "Go to school",
+          "translation": "Ir a la escuela",
+          "definition": "To go to learn",
+          "imageKeyword": "child going to school illustration"
+        },
+        {
+          "term": "Have lunch",
+          "translation": "Almorzar",
+          "definition": "To eat the midday meal",
+          "imageKeyword": "child eating lunch illustration"
+        },
+        {
+          "term": "Do homework",
+          "translation": "Hacer tarea",
+          "definition": "To study at home",
+          "imageKeyword": "child doing homework illustration"
+        },
+        {
+          "term": "Take a bath",
+          "translation": "Bañarse",
+          "definition": "To wash your body",
+          "imageKeyword": "child taking bath illustration"
+        },
+        {
+          "term": "Sleep",
+          "translation": "Dormir",
+          "definition": "To rest at night",
+          "imageKeyword": "child sleeping illustration"
+        }
+      ]
+    },
+    "Jobs 👷‍♂️ (doctor, teacher, firefighter)": {
+      "en": [
+        {
+          "term": "Doctor",
+          "translation": "Doctor",
+          "definition": "A person who helps sick people",
+          "imageKeyword": "doctor professional illustration"
+        },
+        {
+          "term": "Teacher",
+          "translation": "Profesor",
+          "definition": "A person who teaches students",
+          "imageKeyword": "teacher classroom illustration"
+        },
+        {
+          "term": "Firefighter",
+          "translation": "Bombero",
+          "definition": "A person who puts out fires",
+          "imageKeyword": "firefighter fire truck illustration"
+        },
+        {
+          "term": "Police officer",
+          "translation": "Policía",
+          "definition": "A person who keeps us safe",
+          "imageKeyword": "police officer uniform illustration"
+        },
+        {
+          "term": "Chef",
+          "translation": "Cocinero",
+          "definition": "A person who cooks food",
+          "imageKeyword": "chef cooking illustration"
+        },
+        {
+          "term": "Nurse",
+          "translation": "Enfermera",
+          "definition": "A person who helps doctors",
+          "imageKeyword": "nurse medical illustration"
+        },
+        {
+          "term": "Pilot",
+          "translation": "Piloto",
+          "definition": "A person who flies airplanes",
+          "imageKeyword": "pilot airplane illustration"
+        },
+        {
+          "term": "Farmer",
+          "translation": "Granjero",
+          "definition": "A person who grows food",
+          "imageKeyword": "farmer farm illustration"
+        }
+      ]
+    },
+    "Means of transport 🚗 (car, bus, bike)": {
+      "en": [
+        {
+          "term": "Car",
+          "translation": "Auto",
+          "definition": "A vehicle with four wheels",
+          "imageKeyword": "car vehicle illustration"
+        },
+        {
+          "term": "Bus",
+          "translation": "Autobús",
+          "definition": "A big vehicle for many people",
+          "imageKeyword": "bus vehicle illustration"
+        },
+        {
+          "term": "Bike",
+          "translation": "Bicicleta",
+          "definition": "A vehicle with two wheels",
+          "imageKeyword": "bike bicycle illustration"
+        },
+        {
+          "term": "Train",
+          "translation": "Tren",
+          "definition": "A vehicle that runs on tracks",
+          "imageKeyword": "train vehicle illustration"
+        },
+        {
+          "term": "Airplane",
+          "translation": "Avión",
+          "definition": "A vehicle that flies",
+          "imageKeyword": "airplane vehicle illustration"
+        },
+        {
+          "term": "Boat",
+          "translation": "Barco",
+          "definition": "A vehicle that floats on water",
+          "imageKeyword": "boat vehicle illustration"
+        },
+        {
+          "term": "Motorcycle",
+          "translation": "Motocicleta",
+          "definition": "A fast vehicle with two wheels",
+          "imageKeyword": "motorcycle vehicle illustration"
+        },
+        {
+          "term": "Truck",
+          "translation": "Camión",
+          "definition": "A big vehicle for carrying things",
+          "imageKeyword": "truck vehicle illustration"
+        }
+      ]
+    },
+    "Places in town 🏙️ (school, park, hospital)": {
+      "en": [
+        {
+          "term": "School",
+          "translation": "Escuela",
+          "definition": "A place where you learn",
+          "imageKeyword": "school building illustration"
+        },
+        {
+          "term": "Park",
+          "translation": "Parque",
+          "definition": "A place with grass and trees",
+          "imageKeyword": "park place illustration"
+        },
+        {
+          "term": "Hospital",
+          "translation": "Hospital",
+          "definition": "A place where doctors work",
+          "imageKeyword": "hospital building illustration"
+        },
+        {
+          "term": "Store",
+          "translation": "Tienda",
+          "definition": "A place where you buy things",
+          "imageKeyword": "store shop illustration"
+        },
+        {
+          "term": "Library",
+          "translation": "Biblioteca",
+          "definition": "A place with many books",
+          "imageKeyword": "library building illustration"
+        },
+        {
+          "term": "Restaurant",
+          "translation": "Restaurante",
+          "definition": "A place where you eat",
+          "imageKeyword": "restaurant building illustration"
+        },
+        {
+          "term": "Zoo",
+          "translation": "Zoológico",
+          "definition": "A place with animals",
+          "imageKeyword": "zoo place illustration"
+        },
+        {
+          "term": "Beach",
+          "translation": "Playa",
+          "definition": "A place with sand and water",
+          "imageKeyword": "beach place illustration"
+        }
+      ]
+    },
+    "House & rooms 🏠 (kitchen, bathroom, bedroom)": {
+      "en": [
+        {
+          "term": "Kitchen",
+          "translation": "Cocina",
+          "definition": "A room where you cook",
+          "imageKeyword": "kitchen room illustration"
+        },
+        {
+          "term": "Bathroom",
+          "translation": "Baño",
+          "definition": "A room where you wash",
+          "imageKeyword": "bathroom room illustration"
+        },
+        {
+          "term": "Bedroom",
+          "translation": "Dormitorio",
+          "definition": "A room where you sleep",
+          "imageKeyword": "bedroom room illustration"
+        },
+        {
+          "term": "Living room",
+          "translation": "Sala de estar",
+          "definition": "A room where the family gathers",
+          "imageKeyword": "living room illustration"
+        },
+        {
+          "term": "Dining room",
+          "translation": "Comedor",
+          "definition": "A room where you eat",
+          "imageKeyword": "dining room illustration"
+        },
+        {
+          "term": "Garden",
+          "translation": "Jardín",
+          "definition": "A place outside with plants",
+          "imageKeyword": "garden place illustration"
+        },
+        {
+          "term": "Garage",
+          "translation": "Garaje",
+          "definition": "A place for cars",
+          "imageKeyword": "garage place illustration"
+        }
+      ]
+    },
+    "Weather expanded ⛅": {
+      "en": [
+        {
+          "term": "Sunny",
+          "translation": "Soleado",
+          "definition": "When the sun is shining",
+          "imageKeyword": "sunny weather illustration"
+        },
+        {
+          "term": "Rainy",
+          "translation": "Lluvioso",
+          "definition": "When it rains",
+          "imageKeyword": "rainy weather illustration"
+        },
+        {
+          "term": "Cloudy",
+          "translation": "Nublado",
+          "definition": "When there are many clouds",
+          "imageKeyword": "cloudy weather illustration"
+        },
+        {
+          "term": "Windy",
+          "translation": "Ventoso",
+          "definition": "When the wind is strong",
+          "imageKeyword": "windy weather illustration"
+        },
+        {
+          "term": "Snowy",
+          "translation": "Nevado",
+          "definition": "When it snows",
+          "imageKeyword": "snowy weather illustration"
+        },
+        {
+          "term": "Stormy",
+          "translation": "Tormentoso",
+          "definition": "When there is a storm",
+          "imageKeyword": "stormy weather illustration"
+        },
+        {
+          "term": "Foggy",
+          "translation": "Neblinoso",
+          "definition": "When there is fog",
+          "imageKeyword": "foggy weather illustration"
+        },
+        {
+          "term": "Sunny and hot",
+          "translation": "Soleado y caluroso",
+          "definition": "When it's sunny and very warm",
+          "imageKeyword": "hot sunny weather illustration"
+        }
+      ]
+    },
+    "Adjectives simple (big, small, fast, slow)": {
+      "en": [
+        {
+          "term": "Big",
+          "translation": "Grande",
+          "definition": "Large in size",
+          "imageKeyword": "big object illustration"
+        },
+        {
+          "term": "Small",
+          "translation": "Pequeño",
+          "definition": "Little in size",
+          "imageKeyword": "small object illustration"
+        },
+        {
+          "term": "Fast",
+          "translation": "Rápido",
+          "definition": "Moving quickly",
+          "imageKeyword": "fast running illustration"
+        },
+        {
+          "term": "Slow",
+          "translation": "Lento",
+          "definition": "Moving slowly",
+          "imageKeyword": "slow moving illustration"
+        },
+        {
+          "term": "Tall",
+          "translation": "Alto",
+          "definition": "High in height",
+          "imageKeyword": "tall object illustration"
+        },
+        {
+          "term": "Short",
+          "translation": "Bajo",
+          "definition": "Low in height",
+          "imageKeyword": "short object illustration"
+        },
+        {
+          "term": "Long",
+          "translation": "Largo",
+          "definition": "Having great length",
+          "imageKeyword": "long object illustration"
+        },
+        {
+          "term": "Wide",
+          "translation": "Ancho",
+          "definition": "Having great width",
+          "imageKeyword": "wide object illustration"
+        },
+        {
+          "term": "Heavy",
+          "translation": "Pesado",
+          "definition": "Weighing a lot",
+          "imageKeyword": "heavy object illustration"
+        },
+        {
+          "term": "Light",
+          "translation": "Liviano",
+          "definition": "Not weighing much",
+          "imageKeyword": "light object illustration"
+        }
+      ]
+    }
+  }
+}
+
